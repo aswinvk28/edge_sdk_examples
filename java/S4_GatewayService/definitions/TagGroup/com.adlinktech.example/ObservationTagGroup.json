@@ -1,0 +1,29 @@
+{
+  "name": "Observation",
+  "context": "com.adlinktech.example",
+  "qosProfile": "telemetry",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Camera observation TagGroup",
+  "tags": [{
+    "name": "barcode",
+    "description": "Barcode",
+    "kind": "STRING",
+    "unit": "n/a"
+  }, {
+    "name": "position_x",
+    "description": "x coordinate of position",
+    "kind": "INT32",
+    "unit": "n/a"
+  }, {
+    "name": "position_y",
+    "description": "y coordinate of position",
+    "kind": "INT32",
+    "unit": "n/a"
+  }, {
+    "name": "position_z",
+    "description": "z coordinate of position",
+    "kind": "INT32",
+    "unit": "n/a"
+  }]
+}
+ 

@@ -1,0 +1,13 @@
+{
+  "name": "IlluminanceAlarm",
+  "context": "com.adlinktech.example",
+  "qosProfile": "event",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Illuminance Alarm TagGroup",
+  "tags": [{
+    "name": "alarm",
+    "description": "Alarm",
+    "kind": "STRING",
+    "unit": "n/a"
+  }]
+}

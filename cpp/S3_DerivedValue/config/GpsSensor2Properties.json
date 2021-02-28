@@ -1,0 +1,6 @@
+{
+  "id": "ABE879778A9D",
+  "classId": "GpsSensor:com.adlinktech.example:v1.0",
+  "contextId": "deliveryTruck2",
+  "description": "Edge SDK example Delivery truck 2 GPS sensor Thing"
+}

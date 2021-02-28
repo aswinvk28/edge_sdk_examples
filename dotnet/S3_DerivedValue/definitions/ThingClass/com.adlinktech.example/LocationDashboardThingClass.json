@@ -1,0 +1,13 @@
+{
+  "name": "LocationDashboard",
+  "context": "com.adlinktech.example",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Example Dashboard that displays location and distance data",
+  "inputs": [{
+    "name": "location",
+    "tagGroupId": "Location:com.adlinktech.example:v1.0"
+  }, {
+    "name": "distance",
+    "tagGroupId": "Distance:com.adlinktech.example:v1.0"
+  }]
+}

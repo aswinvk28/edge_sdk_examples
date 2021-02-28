@@ -1,0 +1,34 @@
+/* Equivlaent to the following JSON definition
+{
+  "name": "Temperature",
+  "context": "com.adlinktech.example",
+  "qosProfile": "telemetry",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Temperature TagGroup",
+  "tags": [{
+    "name": "temperature",
+    "description": "Temperature",
+    "kind": "FLOAT32",
+    "unit": "°C"
+  }]
+}
+*/
+
+syntax = "proto3";
+
+import "adlinktech/datariver/descriptor.proto";
+
+package com.adlinktech.example.protobuf;
+
+
+message Temperature {
+  option(.adlinktech.datariver.tag_group) = {
+    qosProfile: "telemetry"
+    description: "ADLINK Edge SDK Example Temperature TagGroup"
+  };
+
+  float temperature = 1 [(.adlinktech.datariver.field_options) = {
+    description: "Temperature"
+    unit: "°C"
+  }];
+};

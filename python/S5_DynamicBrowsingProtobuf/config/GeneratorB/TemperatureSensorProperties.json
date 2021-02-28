@@ -1,0 +1,6 @@
+{
+    "id": "PY-923AE8E8F091",
+    "classId": "TemperatureSensor:com.adlinktech.example.protobuf:v1.0",
+    "contextId": "generator2.temperature",
+    "description": "Edge SDK example Temperature sensor Thing for generator B"
+}

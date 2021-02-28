@@ -1,0 +1,14 @@
+{
+  "id": "java-8838c6bf-43dd-4534-9be6-47f190537b23",
+  "classId": "TemperatureDashboard:com.adlinktech.example:v1.0",
+  "contextId": "floor1.dashboard1",
+  "description": "Edge SDK example dashboard Thing that shows temperature data from sensors on floor 1",
+  "inputSettings" : [
+     {
+        "name" : "temperature",
+        "filters" : {
+          "flowIdFilters": ["floor1.*"]
+        }
+     }
+  ]
+}

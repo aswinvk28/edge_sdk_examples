@@ -1,0 +1,6 @@
+{
+    "id": "PY-C17F4CE2301B",
+    "classId": "TemperatureSensor:com.adlinktech.example:v2.0",
+    "contextId": "floor1.room2",
+    "description": "Edge SDK example Floor 1 - room 2 temperature sensor"
+}

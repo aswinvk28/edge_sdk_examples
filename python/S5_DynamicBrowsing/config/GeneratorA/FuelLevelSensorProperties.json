@@ -1,0 +1,6 @@
+{
+    "id": "PY-BC678213A678",
+    "classId": "FuelLevelSensor:com.adlinktech.example:v1.0",
+    "contextId": "generator1.fuel",
+    "description": "Edge SDK example Fuel level and temperature sensor Thing for generator A"
+}

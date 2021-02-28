@@ -1,0 +1,7 @@
+{
+  "name": "ThingBrowser",
+  "context": "com.adlinktech.example",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Thing browser",
+  "inputs": []
+}

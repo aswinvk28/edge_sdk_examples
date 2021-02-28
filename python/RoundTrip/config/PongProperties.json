@@ -1,0 +1,6 @@
+    {
+        "id" : "py-pongThing1",
+        "classId" : "Pong:com.adlinktech.example:v1.0",
+        "contextId" : "Pong",
+        "description" : "The actual Thing that reads Ping and writes Pong."
+    }

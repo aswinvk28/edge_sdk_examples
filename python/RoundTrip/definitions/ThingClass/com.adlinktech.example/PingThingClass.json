@@ -1,0 +1,18 @@
+    {
+      "name" : "Ping",
+      "context" : "com.adlinktech.example",
+      "versionTag" : "v1.0",
+      "description" : "Send a Ping and measure how long it takes to receive the Pong.",
+      "outputs" : [
+        {
+            "name" : "Ping",
+            "tagGroupId" : "Ping:com.adlinktech.example:v1.0"
+        }
+      ],
+      "inputs" : [
+        {
+            "name" : "Pong",
+            "tagGroupId" : "Pong:com.adlinktech.example:v1.0"
+        }
+      ]
+    }

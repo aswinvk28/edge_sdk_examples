@@ -1,0 +1,39 @@
+[
+{
+  "name": "Location",
+  "context": "com.adlinktech.example",
+  "qosProfile": "telemetry",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Location TagGroup",
+  "tags": [
+    {
+      "name": "location",
+      "description": "GPS Location",
+      "kind": "NVP_SEQ",
+      "unit": "n/a",
+      "typedefinition": "Coordinates"
+    }, {
+      "name": "timestampUtc",
+      "description": "UTC timestamp",
+      "kind": "UINT64",
+      "unit": "s"
+    }
+  ]
+},
+{
+  "typedefinition": "Coordinates",
+  "tags": [
+    {
+      "name": "latitude",
+      "description": "GPS Latitude",
+      "kind": "FLOAT32",
+      "unit": "°"
+    }, {
+      "name": "longitude",
+      "description": "GPS Longitude",
+      "kind": "FLOAT32",
+      "unit": "°"
+    }
+  ]
+}
+]

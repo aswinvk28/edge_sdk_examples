@@ -1,0 +1,10 @@
+{
+  "name": "RotationalSpeedSensor",
+  "context": "com.adlinktech.example",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Rotational Speed sensor",
+  "outputs": [{
+      "name": "rotationalSpeed",
+      "tagGroupId": "RotationalSpeed:com.adlinktech.example:v1.0"
+   }]
+}

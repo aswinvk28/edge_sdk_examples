@@ -1,0 +1,15 @@
+{
+  "name": "Pong",
+  "context": "com.adlinktech.example",
+  "qosProfile": "event",
+  "versionTag": "v1.0",
+  "description": "Pong TagGroup for the RoundTrip example",
+  "tags": [
+    {
+      "name": "payload",
+      "description": "the variable-length payload",
+      "type": "BYTE_SEQ",
+      "unit": "blob"
+    }
+  ]
+}

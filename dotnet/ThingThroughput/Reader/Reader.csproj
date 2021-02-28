@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\config\ThroughputReaderProperties.json">
+      <Link>config\ThroughputReaderProperties.json</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\definitions\TagGroup\com.adlinktech.example\ThroughputTagGroup.json">
+      <Link>definitions\TagGroup\com.adlinktech.example\ThroughputTagGroup.json</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\definitions\ThingClass\com.adlinktech.example\ThroughputReaderThingClass.json">
+      <Link>definitions\ThingClass\com.adlinktech.example\ThroughputReaderThingClass.json</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.6.0" />
+    <PackageReference Include="Adlinktech.DataRiver" Version="1.7.0" />
+  </ItemGroup>
+</Project>

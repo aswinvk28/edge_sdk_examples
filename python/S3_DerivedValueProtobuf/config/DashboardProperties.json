@@ -1,0 +1,6 @@
+{
+  "id": "py-6ed0270d-c72b-4e49-a4a0-a7ef246c9078",
+  "classId": "LocationDashboard:com.adlinktech.example.protobuf:v1.0",
+  "contextId": "example3Dashboard",
+  "description": "Edge SDK example 3 dashboard Thing that reads and displays information on delivery truck location and distance"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Illuminance",
+  "context": "com.adlinktech.example",
+  "qosProfile": "telemetry",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Illuminance TagGroup",
+  "tags": [{
+    "name": "illuminance",
+    "description": "Illuminance",
+    "kind": "UINT32",
+    "unit": "lux"
+  }]
+}

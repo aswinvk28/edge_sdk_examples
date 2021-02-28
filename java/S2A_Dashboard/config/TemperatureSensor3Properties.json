@@ -1,0 +1,6 @@
+{
+    "id": "java-EEC22A12303C",
+    "classId": "TemperatureSensor:com.adlinktech.example:v1.0",
+    "contextId": "floor2.room1",
+    "description": "Edge SDK example Floor 2 - room 1 temperature sensor"
+}

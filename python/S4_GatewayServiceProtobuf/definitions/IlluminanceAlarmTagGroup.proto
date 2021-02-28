@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "adlinktech/datariver/descriptor.proto";
+
+package com.adlinktech.example.protobuf;
+
+
+message IlluminanceAlarm {
+  option(.adlinktech.datariver.tag_group) = {
+    qosProfile: "event"
+    description: "ADLINK Edge SDK Example Illuminance Alarm TagGroup"
+  };
+
+  string alarm = 1 [(.adlinktech.datariver.field_options) = {
+    description: "Alarm"
+    unit: "n/a"
+  }];
+};

@@ -1,0 +1,10 @@
+{
+  "name": "GatewayService",
+  "context": "com.adlinktech.example.protobuf",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Gateway Service",
+  "inputs": [{
+    "name": "dynamicInput",
+    "tagGroupId": "*:com.adlinktech.example.protobuf:v1.?"
+  }]
+}

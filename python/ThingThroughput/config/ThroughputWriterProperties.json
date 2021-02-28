@@ -1,0 +1,6 @@
+    {
+        "id" : "py-exampleThroughputWriter1",
+        "classId" : "ThroughputWriter:com.adlinktech.example:v1.0",
+        "contextId" : "exampleThroughputWriter",
+        "description" : "Edge SDK example Thing that writes Throughput messages"
+    }

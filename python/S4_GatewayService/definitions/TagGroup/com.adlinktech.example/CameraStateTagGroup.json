@@ -1,0 +1,14 @@
+{
+  "name": "CameraState",
+  "context": "com.adlinktech.example",
+  "qosProfile": "state",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Camera State TagGroup",
+  "tags": [{
+    "name": "state",
+    "description": "Camera state",
+    "kind": "STRING",
+    "unit": "n/a"
+  }]
+}
+ 

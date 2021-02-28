@@ -1,0 +1,6 @@
+    {
+        "id" : "java-pingThing1",
+        "classId" : "Ping:com.adlinktech.example:v1.0",
+        "contextId" : "Ping",
+        "description" : "The actual Thing that writes Ping and reads Pong."
+    }

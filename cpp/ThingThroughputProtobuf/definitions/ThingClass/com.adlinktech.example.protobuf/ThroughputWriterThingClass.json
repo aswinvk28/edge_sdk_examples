@@ -1,0 +1,12 @@
+    {
+      "name" : "ThroughputWriter",
+      "context" : "com.adlinktech.example.protobuf",
+      "versionTag" : "v1.0",
+      "description" : "ADLINK Edge SDK Example kind of Thing used to write a Throughput message",
+      "outputs" : [
+        {
+            "name" : "ThroughputOutput",
+            "tagGroupId" : "Throughput:com.adlinktech.example.protobuf:v1.0"
+        }
+      ]
+    }

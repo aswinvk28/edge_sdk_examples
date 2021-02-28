@@ -1,0 +1,6 @@
+{
+    "id": "java-0a1166f6-e6fa-4184-931d-f3617a418574",
+    "classId": "GatewayService:com.adlinktech.example:v1.0",
+    "contextId": "gatewayService",
+    "description": "Edge SDK example 4 Gateway Service Thing"    
+}

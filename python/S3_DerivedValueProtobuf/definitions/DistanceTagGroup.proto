@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+import "adlinktech/datariver/descriptor.proto";
+
+package com.adlinktech.example.protobuf;
+
+
+message Distance {
+  option(.adlinktech.datariver.tag_group) = {
+    qosProfile: "telemetry"
+    description: "ADLINK Edge SDK Example Distance TagGroup"
+  };
+
+  double distance = 1 [(.adlinktech.datariver.field_options) = {
+    description: "Distance"
+    unit: "kilometer"
+  }];
+  float eta = 2 [(.adlinktech.datariver.field_options) = {
+    description: "ETA for current traffic"
+    unit: "minutes"
+  }];
+  uint64 timestampUtc = 3 [(.adlinktech.datariver.field_options) = {
+    description: "UTC timestamp"
+    unit: "s"
+  }];
+};

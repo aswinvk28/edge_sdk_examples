@@ -1,0 +1,6 @@
+{
+  "id": "9A3314DBFA12",
+  "classId": "LightSensor:com.adlinktech.example:v1.0",
+  "contextId": "station1.lightsensor",
+  "description": "Edge SDK example light sensor in station 1"
+}

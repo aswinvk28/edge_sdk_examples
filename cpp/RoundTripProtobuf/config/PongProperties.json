@@ -1,0 +1,6 @@
+    {
+        "id" : "pongThing1",
+        "classId" : "Pong:com.adlinktech.example.protobuf:v1.0",
+        "contextId" : "Pong",
+        "description" : "The actual Thing that reads Ping and writes Pong."
+    }

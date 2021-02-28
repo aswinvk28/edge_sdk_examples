@@ -1,0 +1,14 @@
+{
+  "name": "SensorState",
+  "context": "com.adlinktech.example",
+  "qosProfile": "state",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Sensor state TagGroup",
+  "tags": [{
+    "name": "state",
+    "description": "Sensor state",
+    "kind": "STRING",
+    "unit": "n/a"
+  }]
+}
+ 

@@ -1,0 +1,51 @@
+/* Equivlaent to the following JSON definition
+{
+  "name": "Distance",
+  "context": "com.adlinktech.example",
+  "qosProfile": "telemetry",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Distance TagGroup",
+  "tags": [{
+      "name": "distance",
+      "description": "Distance",
+      "kind": "FLOAT64",
+      "unit": "kilometer"
+    }, {
+      "name": "eta",
+      "description": "ETA for current traffic",
+      "kind": "FLOAT32",
+      "unit": "minutes"
+    }, {
+      "name": "timestampUtc",
+      "description": "UTC timestamp",
+      "kind": "UINT64",
+      "unit": "s"
+    }
+  ]
+}
+*/
+
+syntax = "proto3";
+
+import "adlinktech/datariver/descriptor.proto";
+
+package com.adlinktech.example.protobuf;
+
+message Distance {
+  option(.adlinktech.datariver.tag_group) = {
+    qosProfile: "telemetry"
+    description: "ADLINK Edge SDK Example Temperature TagGroup"
+  };
+  double distance = 1 [(.adlinktech.datariver.field_options) = {
+    description: "Distance"
+    unit: "kilometer"
+  }];
+  float eta = 2 [(.adlinktech.datariver.field_options) = {
+    description: "ETA for current traffic"
+    unit: "minutes"
+  }];
+  uint64 timestampUtc = 3 [(.adlinktech.datariver.field_options) = {
+    description: "UTC timestamp"
+    unit: "s"
+  }];
+};

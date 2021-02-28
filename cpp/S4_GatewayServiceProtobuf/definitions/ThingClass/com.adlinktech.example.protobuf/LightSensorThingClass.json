@@ -1,0 +1,13 @@
+{
+  "name": "LightSensor",
+  "context": "com.adlinktech.example.protobuf",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Light sensor",
+  "outputs": [{
+    "name": "illuminance",
+    "tagGroupId": "Illuminance:com.adlinktech.example.protobuf:v1.0"
+  }, {
+    "name": "alarm",
+    "tagGroupId": "IlluminanceAlarm:com.adlinktech.example.protobuf:v1.0"
+  }]
+}

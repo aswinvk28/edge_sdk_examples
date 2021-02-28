@@ -1,0 +1,1 @@
+Class-Path: commons-cli-1.4.jar jansi-1.18.jar ${LOCAL_THINGAPI_JAR_NAME}

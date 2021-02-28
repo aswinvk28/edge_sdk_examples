@@ -1,0 +1,10 @@
+{
+  "name": "GpsSensor",
+  "context": "com.adlinktech.example.protobuf",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Example GPS sensor",
+  "outputs": [{
+    "name": "location",
+    "tagGroupId": "Location:com.adlinktech.example.protobuf:v1.0"
+  }]
+}

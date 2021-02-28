@@ -1,0 +1,6 @@
+{
+  "id": "7de4e4ce-4be6-4fd8-8ce2-b24efd6841a7",
+  "classId": "DistanceService:com.adlinktech.example:v1.0",
+  "contextId": "example3DistanceService",
+  "description": "Edge SDK example 3 derived value service Thing that calculates and publishes distance to a specific location for received GPS data"
+}

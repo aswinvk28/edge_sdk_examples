@@ -1,0 +1,6 @@
+{
+    "id": "9BC34CAE1212",
+    "classId": "Camera:com.adlinktech.example:v1.0",
+    "contextId": "station2.camera1",
+    "description": "Edge SDK example camera 1 in station 2"
+}

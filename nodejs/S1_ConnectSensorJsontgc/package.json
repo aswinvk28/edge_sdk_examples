@@ -1,0 +1,15 @@
+{
+  "name": "s1_connectsensor",
+  "version": "1.0.0",
+  "description": "Example scenario 1 'Connect a Sensor' of the ADLINK Edge SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jsontgc": "jsontgc --targetlang js --outdir lib definitions/TagGroup/com.adlinktech.example/TemperatureTagGroup.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^14.0.0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "id": "PY-89ECAB123113",
+  "classId": "GpsSensor:com.adlinktech.example.protobuf:v1.0",
+  "contextId": "deliveryTruck1",
+  "description": "Edge SDK example Delivery truck 1 GPS sensor Thing"
+}

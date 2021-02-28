@@ -1,0 +1,72 @@
+/* Equivlaent to the following JSON definition
+[
+{
+  "name": "Location",
+  "context": "com.adlinktech.example",
+  "qosProfile": "telemetry",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Location TagGroup",
+  "tags": [
+    {
+      "name": "location",
+      "description": "GPS Location",
+      "kind": "NVP_SEQ",
+      "unit": "n/a",
+      "typedefinition": "Coordinates"
+    }, {
+      "name": "timestampUtc",
+      "description": "UTC timestamp",
+      "kind": "UINT64",
+      "unit": "s"
+    }
+  ]
+},
+{
+  "typedefinition": "Coordinates",
+  "tags": [
+    {
+      "name": "latitude",
+      "description": "GPS Latitude",
+      "kind": "FLOAT32",
+      "unit": "°"
+    }, {
+      "name": "longitude",
+      "description": "GPS Longitude",
+      "kind": "FLOAT32",
+      "unit": "°"
+    }
+  ]
+}
+]*/
+
+syntax = "proto3";
+
+import "adlinktech/datariver/descriptor.proto";
+
+package com.adlinktech.example.protobuf;
+
+message Coordinates {
+  float latitude = 1 [(.adlinktech.datariver.field_options) = {
+    description: "GPS Latitude"
+    unit: "°"
+  }];
+  float longitude = 2 [(.adlinktech.datariver.field_options) = {
+    description: "GPS Longitude"
+    unit: "°"
+  }];
+};
+
+message Location {
+  option(.adlinktech.datariver.tag_group) = {
+    qosProfile: "telemetry"
+    description: "ADLINK Edge SDK Example Location TagGroup"
+  };
+  Coordinates location = 1 [(.adlinktech.datariver.field_options) = {
+    description: "GPS Location"
+    unit: "n/a"
+  }];
+  uint64 timestampUtc = 2 [(.adlinktech.datariver.field_options) = {
+    description: "UTC timestamp"
+    unit: "s"
+  }];
+};

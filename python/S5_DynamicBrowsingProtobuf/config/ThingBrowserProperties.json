@@ -1,0 +1,6 @@
+{
+    "id": "PY-7206c5ad-eefc-4d94-bee2-5f099f4dfcd8",
+    "classId": "ThingBrowser:com.adlinktech.example.protobuf:v1.0",
+    "contextId": "thingBrowser",
+    "description": "Edge SDK example 5 ThingBrowser Thing"
+}

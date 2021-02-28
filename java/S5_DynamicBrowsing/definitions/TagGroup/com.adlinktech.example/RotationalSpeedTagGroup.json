@@ -1,0 +1,29 @@
+{
+  "name": "RotationalSpeed",
+  "context": "com.adlinktech.example",
+  "qosProfile": "telemetry",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Rotational speed TagGroup",
+  "tags": [{
+    "name": "speed",
+    "description": "Rotational speed",
+    "kind": "UINT32",
+    "unit": "rpm"
+  }, {
+    "name": "lastHourMin",
+    "description": "Minimum rotational speed in last hour",
+    "kind": "UINT32",
+    "unit": "rpm"
+  }, {
+    "name": "lastHourMax",
+    "description": "Maximum rotational speed in last hour",
+    "kind": "UINT32",
+    "unit": "rpm"
+  }, {
+    "name": "lastHourAverage",
+    "description": "Avarage speed in last hour",
+    "kind": "FLOAT32",
+    "unit": "rpm"
+  }]
+ }
+ 

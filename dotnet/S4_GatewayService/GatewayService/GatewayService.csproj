@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <None Include="..\config\**" 
+        CopyToOutputDirectory="PreserveNewest"
+        LinkBase="config\" />
+      <None Include="..\definitions\**" 
+        CopyToOutputDirectory="PreserveNewest" 
+        LinkBase="definitions\" />
+  </ItemGroup>
+  <ItemGroup>
+      <None Include="..\barcodes\**" 
+        CopyToOutputDirectory="PreserveNewest"
+        LinkBase="barcodes\" />
+  </ItemGroup>
+  <ItemGroup>
+      <None Include=".\scripts\**" 
+        CopyToOutputDirectory="PreserveNewest"
+        LinkBase="scripts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.6.0" />
+    <PackageReference Include="Adlinktech.DataRiver" Version="1.7.0" />
+  </ItemGroup>
+
+</Project>

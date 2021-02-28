@@ -1,0 +1,14 @@
+{
+  "name": "FuelLevel",
+  "context": "com.adlinktech.example",
+  "qosProfile": "telemetry",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Fuel level TagGroup",
+  "tags": [{
+    "name": "level",
+    "description": "Fuel level",
+    "kind": "FLOAT32",
+    "unit": "l"
+  }]
+}
+ 

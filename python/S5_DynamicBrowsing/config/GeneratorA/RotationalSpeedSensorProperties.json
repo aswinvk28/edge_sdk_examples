@@ -1,0 +1,6 @@
+{
+    "id": "PY-BCF232112AF2",
+    "classId": "RotationalSpeedSensor:com.adlinktech.example:v1.0",
+    "contextId": "generator1.engine.speed",
+    "description": "Edge SDK example Engine speed sensor Thing for generator A"
+}

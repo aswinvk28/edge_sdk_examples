@@ -1,0 +1,6 @@
+{
+    "id": "PY-77C34AAECDE3",
+    "classId": "Camera:com.adlinktech.example.protobuf:v1.0",
+    "contextId": "station2.camera2",
+    "description": "Edge SDK example camera 2 in station 2"
+}

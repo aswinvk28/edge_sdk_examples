@@ -1,0 +1,24 @@
+{
+  "name": "Distance",
+  "context": "com.adlinktech.example",
+  "qosProfile": "telemetry",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Distance TagGroup",
+  "tags": [{
+      "name": "distance",
+      "description": "Distance",
+      "kind": "FLOAT64",
+      "unit": "kilometer"
+    }, {
+      "name": "eta",
+      "description": "ETA for current traffic",
+      "kind": "FLOAT32",
+      "unit": "minutes"
+    }, {
+      "name": "timestampUtc",
+      "description": "UTC timestamp",
+      "kind": "UINT64",
+      "unit": "s"
+    }
+  ]
+}

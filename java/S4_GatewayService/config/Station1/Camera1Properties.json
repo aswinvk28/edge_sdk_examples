@@ -1,0 +1,6 @@
+{
+    "id": "java-AB2342AEF232",
+    "classId": "Camera:com.adlinktech.example:v1.0",
+    "contextId": "station1.camera1",
+    "description": "Edge SDK example camera 1 in station 1"
+}

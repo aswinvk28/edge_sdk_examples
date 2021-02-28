@@ -1,0 +1,12 @@
+{
+    "security": {
+        "authentication": {
+            "identity": {
+                "certificate": "file://identity/display_id_cert.pem",
+                "privateKey": "file://identity/display_id_priv_key.pem"
+            }
+        },
+        "defaultPermission": "deny",
+        "permissions": [ ]
+    }
+}

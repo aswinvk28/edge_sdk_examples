@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+import "adlinktech/datariver/descriptor.proto";
+
+package com.adlinktech.example.protobuf;
+
+
+message Throughput {
+  option(.adlinktech.datariver.tag_group) = {
+    qosProfile: "event"
+    description: "Throughput TagGroup"
+  };
+
+  uint64 sequencenumber = 1 [(.adlinktech.datariver.field_options) = {
+    description: "The sequence-number of the message"
+    unit: "number"
+  }];
+  bytes sequencedata = 2 [(.adlinktech.datariver.field_options) = {
+    description: "the sequence-data of the message"
+    unit: "number"
+  }];
+};

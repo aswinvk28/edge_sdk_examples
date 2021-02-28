@@ -1,0 +1,35 @@
+{
+    "security": {
+        "certificationAuthority": {
+            "identityAuthority": {
+                "certificate": "file://ca/identity_ca_cert.pem"
+            },
+            "permissionsAuthority": {
+                "certificate": "file://ca/permissions_ca_cert.pem",
+                "privateKey": "file://ca/permissions_ca_priv_key.pem"
+            }
+        },
+        "discoveryProtection": {
+            "enabled": true
+        },
+        "dataProtection": {
+            "defaultRule": {
+                "policy": {
+                    "restrictReadAccess": true,
+                    "restrictWriteAccess": true,
+                    "protection": "encrypt"
+                }
+            },
+            "tagGroupRules": [
+                {
+                    "tagGroupId": "Temperature:com.adlinktech.example:v1.0",
+                    "policy": {
+                        "restrictReadAccess": false,
+                        "restrictWriteAccess": true,
+                        "protection": "encrypt"
+                    }
+                }
+            ]
+        }
+    }
+}

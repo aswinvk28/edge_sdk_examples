@@ -1,0 +1,6 @@
+    {
+        "id" : "_AUTO_",
+        "classId" : "ThroughputReader:com.adlinktech.example.protobuf:v1.0",
+        "contextId" : "exampleThroughputReader",
+        "description" : "Edge SDK example Thing that reads Throughput messages"
+    }

@@ -1,0 +1,21 @@
+{
+  "name" : "Throughput",
+  "context" : "com.adlinktech.example",
+  "qosProfile" : "event",
+  "versionTag" : "v1.0",
+  "description": "Throughput TagGroup",
+  "tags": [
+    {
+      "name" : "sequencenumber",
+      "description" : "The sequence-number of the message",
+      "type" : "UINT64",
+      "unit" : "number"
+    },
+    {
+        "name": "sequencedata",
+        "description": "the sequence-data of the message",
+        "type": "BYTE_SEQ",
+        "unit": "number"
+    }
+  ]
+}

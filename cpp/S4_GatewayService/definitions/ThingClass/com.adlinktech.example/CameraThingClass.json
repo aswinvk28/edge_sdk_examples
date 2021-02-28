@@ -1,0 +1,13 @@
+{
+  "name": "Camera",
+  "context": "com.adlinktech.example",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Camera",
+  "outputs": [{
+      "name": "observation",
+      "tagGroupId": "Observation:com.adlinktech.example:v1.0"
+    }, {
+     "name": "state",
+     "tagGroupId": "CameraState:com.adlinktech.example:v1.0"
+  }]
+}

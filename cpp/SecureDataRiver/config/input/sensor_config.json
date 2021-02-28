@@ -1,0 +1,17 @@
+{
+    "security": {
+        "authentication": {
+            "identity": {
+                "certificate": "file://identity/sensor_id_cert.pem",
+                "privateKey": "file://identity/sensor_id_priv_key.pem"
+            }
+        },
+        "permissions": [
+            {
+                "tagGroupId": "Temperature:com.adlinktech.example:v1.0",
+                "write": "allow"
+            }
+        ],
+        "defaultPermission": "deny"
+    }
+}

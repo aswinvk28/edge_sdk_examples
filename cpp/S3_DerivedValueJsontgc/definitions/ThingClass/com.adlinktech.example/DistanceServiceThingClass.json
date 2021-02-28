@@ -1,0 +1,14 @@
+{
+  "name": "DistanceService",
+  "context": "com.adlinktech.example",
+  "version": "v1.0",
+  "description": "ADLINK Edge SDK Example Derived Value Service that calculates distance from a specific point for incoming GPS location samples",
+  "inputs": [{
+    "name": "location",
+    "tagGroupId": "Location:com.adlinktech.example:v1.0"
+  }],
+  "outputs": [{
+    "name": "distance",
+    "tagGroupId": "Distance:com.adlinktech.example:v1.0"
+  }]
+}
